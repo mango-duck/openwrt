@@ -9,7 +9,8 @@ BOARDNAME:=Arm SystemReady (EFI) compliant
 FEATURES:=fpu pci pcie rtc usb boot-part rootfs-part
 FEATURES+=cpiogz ext4 ramdisk squashfs targz vmdk
 
-KERNEL_PATCHVER:=5.15
+#KERNEL_PATCHVER:=5.15
+KERNEL_PATCHVER:=5.10
 
 include $(INCLUDE_DIR)/target.mk
 
